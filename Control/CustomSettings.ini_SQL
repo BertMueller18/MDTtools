@@ -1,0 +1,477 @@
+[Settings]
+Priority=CSettings, CPackages, CApps, CAdmins, CRoles, Locations, LSettings, LPackages, LApps, LAdmins, LRoles, MMSettings, MMPackages, MMApps, MMAdmins, MMRoles, RSettings, RPackages, RApps, RAdmins, init,MACAddress,Default,WSSectionName
+Properties=WebSysprod,So,Rack,Shelf,Data,ConfnetRepo,ConfnetTarget,OSDPackagerRoot,OSDUserPackager,OSDPasswordPackager,OSDCustomerRelease,RackShelf,disksCount,firmware,NetIntCount
+
+[init]
+_SMSTSOrgName=Running %TaskSequenceID% on %OSDComputername% | SysProd Dev
+OSDPackagerRoot=\\pkgsrv.hq.k.grp\packager\delivery\Customers
+OSDUserPackager=hq.k.grp\packager
+OSDPasswordPackager=Packager
+WSUSServer=http://CHX-WSUS-01.hq.k.grp
+EventService=http://10.0.205.228:9800
+
+[WSSectionName]
+WebSysprod=http://10.0.205.210/RESTGwy/portal.php/sendNotification
+
+[Default]
+SLShareDynamicLogging=\\10.0.205.203\Images\MDT\Logs\%RackShelf%
+SLShare=\\10.0.205.203\Images\MDT\Logs\%RackShelf%
+ConfnetRepo=http://10.0.205.203/Confnet/%MACAddress%_confnet.bat
+ConfnetTarget=C:\Confnet.bat
+OSInstall=YES
+SkipCapture=NO
+SkipAdminPassword=YES
+SkipProductKey=YES
+SkipComputerBackup=NO
+SkipBitLocker=YES
+ComputerName=template01
+SkipAdminPassword=YES
+SkipApplications=NO
+SkipAppsOnUpgrade=YES
+SkipBDDWelcome=YES
+SkipBitLocker=YES
+SkipCapture=YES
+SkipComputerName=YES
+SkipComputerBackup=YES
+SkipDeploymentType=YES
+SkipDomainMembership=YES
+SkipFinalSummary=YES
+SkipLocaleSelection=YES
+KeyboardLocale=en-US
+UserLocale=en-US
+UILanguage=en-US
+SkipPackageDisplay=YES
+SkipWizard=YES
+DeploymentType=NEWCOMPUTER
+SkipSummary=YES
+SkipTaskSequence=YES
+SkipBDDWelcome=YES
+SkipFinalSummary=YES
+SkipTimeZone=Yes
+RackShelf=Rack%Rack%_Shelf%Shelf%
+
+
+[40:F2:E9:6B:1F:98]
+TaskSequenceID=WINDOWS8DEPLOY
+TimeZoneName=Dateline Standard Time
+ComputerName=mgt01
+#OverrideProductKey=11111-11111-11111-11111
+OSDComputerName=mgt01
+OSDAdapterCount=1
+; This will be done in confnet as ususal, may be also the product key
+; OSDAdapter0EnableDHCP=FALSE
+; OSDAdapter0IPAddressList=10.0.142.5
+; OSDAdapter0SubnetMask=255.255.255.0
+; OSDAdapter0Gateways=10.0.142.250
+OSDAdapter0EnableWINS=TRUE
+OSDAdapter0TCPIPNetBiosOptions=0
+OSDAdapter0MacAddress=40:F2:E9:6B:1F:98
+OSDAdapter0GatewayCostMetrics=Automatic
+OSDAdapter0EnableTCPIPFiltering=TRUE
+OSDAdapter0EnableLMHosts=TRUE
+OSDAdapter0EnableFullDNSRegistration=TRUE
+OSDAdapter0EnableDNSRegistration=TRUE
+OSDAdapter0Name=CTRL
+JoinWorkgroup=TEST
+OSDCustomerRelease=
+So=55555555
+Rack=3
+Shelf=C
+disksCount=1
+firmware=1
+NetIntCount=1
+; Json format without doubles quotes
+Data=configuredIP : 10.0.129.79
+OSDCustomerRelease=
+So=99999999
+Rack=3
+Shelf=C
+disksCount=1
+firmware=1
+NetIntCount=1
+; Json format without doubles quotes
+Data=configuredIP : 10.0.129.48
+
+[00:0C:29:4E:88:FF]
+TaskSequenceID=OSB001
+TimeZoneName=Dateline Standard Time
+ComputerName=mgt02
+#OverrideProductKey=P6DFG-6RFM3-GKBCT-H4JJJ-6CWDW
+OSDComputerName=mgt02
+OSDAdapterCount=1
+; This will be done in confnet as ususal, may be also the product key
+; OSDAdapter0EnableDHCP=FALSE
+; OSDAdapter0IPAddressList=10.0.142.5
+; OSDAdapter0SubnetMask=255.255.255.0
+; OSDAdapter0Gateways=10.0.142.250
+OSDAdapter0EnableWINS=TRUE
+OSDAdapter0TCPIPNetBiosOptions=0
+OSDAdapter0MacAddress=00:0C:29:4E:88:FF
+OSDAdapter0GatewayCostMetrics=Automatic
+OSDAdapter0EnableTCPIPFiltering=TRUE
+OSDAdapter0EnableLMHosts=TRUE
+OSDAdapter0EnableFullDNSRegistration=TRUE
+OSDAdapter0EnableDNSRegistration=TRUE
+OSDAdapter0Name=CTRL
+JoinWorkgroup=NET
+So=11015810
+Rack=8
+Shelf=D
+disksCount=1
+firmware=1
+NetIntCount=1
+; Json format without doubles quotes
+Data=configuredIP : 10.0.129.18
+
+[28:80:23:90:5E:FC]
+TaskSequenceID=OSB001
+TimeZoneName=Romance Standard Time
+ComputerName=mgt01
+#OverrideProductKey=XF4BW-DPG7Y-2YYQC-K3P9X-GMQMG
+OSDComputerName=mgt01
+OSDAdapterCount=1
+; This will be done in confnet as ususal, may be also the product key
+; OSDAdapter0EnableDHCP=FALSE
+; OSDAdapter0IPAddressList=10.0.142.5
+; OSDAdapter0SubnetMask=255.255.255.0
+; OSDAdapter0Gateways=10.0.142.250
+OSDAdapter0EnableWINS=TRUE
+OSDAdapter0TCPIPNetBiosOptions=0
+OSDAdapter0MacAddress=28:80:23:90:5E:FC
+OSDAdapter0GatewayCostMetrics=Automatic
+OSDAdapter0EnableTCPIPFiltering=TRUE
+OSDAdapter0EnableLMHosts=TRUE
+OSDAdapter0EnableFullDNSRegistration=TRUE
+OSDAdapter0EnableDNSRegistration=TRUE
+OSDAdapter0Name=CTRL
+JoinWorkgroup=NCNLAB
+OSDCustomerRelease=
+So=11015752
+Rack=2
+Shelf=B
+disksCount=1
+firmware=1
+NetIntCount=1
+; Json format without doubles quotes
+Data=configuredIP : 10.0.129.87
+
+[CSettings]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=ComputerSettings
+Parameters=UUID, AssetTag, SerialNumber, MacAddress
+ParameterCondition=OR
+
+[CPackages]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=ComputerPackages
+Parameters=UUID, AssetTag, SerialNumber, MacAddress
+ParameterCondition=OR
+Order=Sequence
+
+[CApps]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=ComputerApplications
+Parameters=UUID, AssetTag, SerialNumber, MacAddress
+ParameterCondition=OR
+Order=Sequence
+
+[CAdmins]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=ComputerAdministrators
+Parameters=UUID, AssetTag, SerialNumber, MacAddress
+ParameterCondition=OR
+
+[CRoles]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=ComputerRoles
+Parameters=UUID, AssetTag, SerialNumber, MacAddress
+ParameterCondition=OR
+
+[Locations]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=Locations
+Parameters=DefaultGateway
+
+[LSettings]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=LocationSettings
+Parameters=DefaultGateway
+
+[LPackages]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=LocationPackages
+Parameters=DefaultGateway
+Order=Sequence
+
+[LApps]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=LocationApplications
+Parameters=DefaultGateway
+Order=Sequence
+
+[LAdmins]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=LocationAdministrators
+Parameters=DefaultGateway
+
+[LRoles]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=LocationRoles
+Parameters=DefaultGateway
+
+[MMSettings]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=MakeModelSettings
+Parameters=Make, Model
+
+[MMPackages]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=MakeModelPackages
+Parameters=Make, Model
+Order=Sequence
+
+[MMApps]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=MakeModelApplications
+Parameters=Make, Model
+Order=Sequence
+
+[MMAdmins]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=MakeModelAdministrators
+Parameters=Make, Model
+
+[MMRoles]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=MakeModelRoles
+Parameters=Make, Model
+
+[RSettings]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=RoleSettings
+Parameters=Role
+
+[RPackages]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=RolePackages
+Parameters=Role
+Order=Sequence
+
+[RApps]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=RoleApplications
+Parameters=Role
+Order=Sequence
+
+[RAdmins]
+SQLServer=10.0.205.228
+Instance=MDT
+Database=MDT
+Netlib=DBNMPNTW
+SQLShare=mdt$
+Table=RoleAdministrators
+Parameters=Role
+
+[28:80:23:90:67:58]
+TaskSequenceID=WINDOWS8DEPLOY
+TimeZoneName=China Standard Time
+ComputerName=mgt01
+#OverrideProductKey=N8BQB-HVVH9-Q86Y9-R89KM-92C6D
+OSDComputerName=mgt01
+OSDAdapterCount=1
+; This will be done in confnet as ususal, may be also the product key
+; OSDAdapter0EnableDHCP=FALSE
+; OSDAdapter0IPAddressList=10.0.142.5
+; OSDAdapter0SubnetMask=255.255.255.0
+; OSDAdapter0Gateways=10.0.142.250
+OSDAdapter0EnableWINS=TRUE
+OSDAdapter0TCPIPNetBiosOptions=0
+OSDAdapter0MacAddress=28:80:23:90:67:58
+OSDAdapter0GatewayCostMetrics=Automatic
+OSDAdapter0EnableTCPIPFiltering=TRUE
+OSDAdapter0EnableLMHosts=TRUE
+OSDAdapter0EnableFullDNSRegistration=TRUE
+OSDAdapter0EnableDNSRegistration=TRUE
+OSDAdapter0Name=CTRL
+JoinWorkgroup=TOV
+OSDCustomerRelease=\TOV\MSPLAT_1.7STD3,\TOV\PRMHE_3.1TOV1.0,\TOV\MSSHE_2.3TOV1.0,
+So=11015842
+Rack=7
+Shelf=B
+disksCount=1
+firmware=1
+NetIntCount=1
+; Json format without doubles quotes
+Data=configuredIP : 10.0.129.47
+
+[40:F2:E9:6C:D9:68]
+TaskSequenceID=OSB001
+TimeZoneName=E. South America Standard Time
+ComputerName=mgt03
+#OverrideProductKey=D7TBY-FJJCP-TXVQ2-7YHXC-P36QC
+OSDComputerName=mgt03
+OSDAdapterCount=1
+; This will be done in confnet as ususal, may be also the product key
+; OSDAdapter0EnableDHCP=FALSE
+; OSDAdapter0IPAddressList=10.0.142.5
+; OSDAdapter0SubnetMask=255.255.255.0
+; OSDAdapter0Gateways=10.0.142.250
+OSDAdapter0EnableWINS=TRUE
+OSDAdapter0TCPIPNetBiosOptions=0
+OSDAdapter0MacAddress=40:F2:E9:6C:D9:68
+OSDAdapter0GatewayCostMetrics=Automatic
+OSDAdapter0EnableTCPIPFiltering=TRUE
+OSDAdapter0EnableLMHosts=TRUE
+OSDAdapter0EnableFullDNSRegistration=TRUE
+OSDAdapter0EnableDNSRegistration=TRUE
+OSDAdapter0Name=CTRL
+JoinWorkgroup=NET
+OSDCustomerRelease=\NET\SOLCASHE_1.9NET1.1,
+So=11015810
+Rack=8
+Shelf=A
+disksCount=1
+firmware=1
+NetIntCount=1
+; Json format without doubles quotes
+Data=configuredIP : 10.0.129.36
+
+[40:F2:E9:6C:D6:60]
+TaskSequenceID=OSB001
+TimeZoneName=E. South America Standard Time
+ComputerName=mgt04
+#OverrideProductKey=TD3WK-Y49QQ-V3Q6G-H7P2H-RKJJT
+OSDComputerName=mgt04
+OSDAdapterCount=1
+; This will be done in confnet as ususal, may be also the product key
+; OSDAdapter0EnableDHCP=FALSE
+; OSDAdapter0IPAddressList=10.0.142.5
+; OSDAdapter0SubnetMask=255.255.255.0
+; OSDAdapter0Gateways=10.0.142.250
+OSDAdapter0EnableWINS=TRUE
+OSDAdapter0TCPIPNetBiosOptions=0
+OSDAdapter0MacAddress=40:F2:E9:6C:D6:60
+OSDAdapter0GatewayCostMetrics=Automatic
+OSDAdapter0EnableTCPIPFiltering=TRUE
+OSDAdapter0EnableLMHosts=TRUE
+OSDAdapter0EnableFullDNSRegistration=TRUE
+OSDAdapter0EnableDNSRegistration=TRUE
+OSDAdapter0Name=CTRL
+JoinWorkgroup=NET
+OSDCustomerRelease=\NET\SOLCASHE_1.9NET1.1,
+So=11015810
+Rack=8
+Shelf=B
+disksCount=1
+firmware=1
+NetIntCount=1
+; Json format without doubles quotes
+Data=configuredIP : 10.0.129.44
+
+[40:F2:E9:6C:EB:D8]
+TaskSequenceID=OSB001
+TimeZoneName=E. South America Standard Time
+ComputerName=mgt05
+#OverrideProductKey=H6GYY-DXDFV-X48DF-XGWMT-4HVV9
+OSDComputerName=mgt05
+OSDAdapterCount=1
+; This will be done in confnet as ususal, may be also the product key
+; OSDAdapter0EnableDHCP=FALSE
+; OSDAdapter0IPAddressList=10.0.142.5
+; OSDAdapter0SubnetMask=255.255.255.0
+; OSDAdapter0Gateways=10.0.142.250
+OSDAdapter0EnableWINS=TRUE
+OSDAdapter0TCPIPNetBiosOptions=0
+OSDAdapter0MacAddress=40:F2:E9:6C:EB:D8
+OSDAdapter0GatewayCostMetrics=Automatic
+OSDAdapter0EnableTCPIPFiltering=TRUE
+OSDAdapter0EnableLMHosts=TRUE
+OSDAdapter0EnableFullDNSRegistration=TRUE
+OSDAdapter0EnableDNSRegistration=TRUE
+OSDAdapter0Name=CTRL
+JoinWorkgroup=NET
+OSDCustomerRelease=\NET\SOLCASHE_1.9NET1.1,
+So=11015810
+Rack=8
+Shelf=C
+disksCount=1
+firmware=1
+NetIntCount=1
+; Json format without doubles quotes
+Data=configuredIP : 10.0.129.40

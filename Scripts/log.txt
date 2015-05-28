@@ -1,0 +1,386 @@
+HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 07:42:33 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=d4ucnrc6cq4gnhmlddcuteok11; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"47","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 08:42:33"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 07:47:42 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=29ph8thhmv8u57cjg0doud7tm2; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 493
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"rdp:\/\/10.0.129.87","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"100","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 08:47:42"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 08:29:04 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=oh2bfjnfrcvv7u9af1bhjf5tm2; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 540
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"rdp:\/\/10.0.129.87","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>About to run final action (cleanup and reboot). Next step is autorun of confnet script to customize the installation.<\/b>","progress":"96","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"2047","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 09:29:04"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 08:58:48 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=dv3d2ds3phflc7ncufsu0d7pp1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 09:58:48"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 09:04:05 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=v4kqrf95o3lfqvjns0h7cqdri0; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 549
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 10:04:05"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 09:54:34 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=ae2900u4svn9r1rql03v8k4d41; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 10:54:34"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 10:00:47 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=php96k1q14bc9f2pdtlia7qgs3; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 493
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"rdp:\/\/10.0.129.87","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"100","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 11:00:47"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 10:37:47 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=5b4ncvttap5229ielnqufi1972; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 11:37:47"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 10:43:07 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=q5oa15lm697m1i3ubi02ri6pa2; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 549
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 11:43:07"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 11:13:15 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=jl1d0fu1g859i1r4cedu6iban7; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 12:13:15"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 11:18:58 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=6u1el28kcbfeab5e2dg241o085; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 549
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 12:18:58"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 11:49:31 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=enk3u2cbl13ii17c35922l7214; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 12:49:31"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 11:55:03 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=mi990qb9brr42d2poc4v442on2; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 549
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 12:55:03"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 12:32:27 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=gkt5lc021lscgiq2rehh0l3il1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 13:32:27"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 12:38:22 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=cejb91sh86e8l5m5pj2ejfc8b7; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 549
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 13:38:22"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 13:15:34 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=ke3erqlv4fv06m94n5g1aafka6; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 14:15:34"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 13:21:05 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=hj6810399eo8iihaf95stvgdg0; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 549
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 14:21:05"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 13:58:50 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=u9vjqsuorb4cgi8pgccp3dpoc7; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 14:58:50"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 14:04:33 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=fe8f50d0j6er08f53peat4sdj3; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 549
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 15:04:33"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 14:31:17 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=48up8ehtjoqmhe6ghomuffbm73; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 15:31:17"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 14:36:46 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=al4h3u44hudcpqo489t23ogkb4; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 493
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"rdp:\/\/10.0.129.87","configuredip":"10.0.142.250","startdate":"2015-03-24 11:40:01","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"100","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 15:36:46"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 15:16:46 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=sv7sa7ftmveoml9i6bkvfdia16; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-25 15:56:45","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 16:16:46"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 15:22:32 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=4ge8teplevmccg4g0d10g024a6; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 549
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-25 15:56:45","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 16:22:32"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 15:58:58 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=jk36qlma1t6pke6n99pi1log16; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-25 15:56:45","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 16:58:58"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 16:06:22 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=q2fslt5thdajiaial36jpj0cu5; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 493
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"rdp:\/\/10.0.129.87","configuredip":"10.0.142.250","startdate":"2015-03-25 15:56:45","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"100","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 17:06:22"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 16:42:42 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=tkta171or3istggb2jghj0b185; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-25 17:19:03","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 17:42:42"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 16:49:00 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=tbg45s27g36hpcloe90hclisn2; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 493
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"rdp:\/\/10.0.129.87","configuredip":"10.0.142.250","startdate":"2015-03-25 17:19:03","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"100","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 17:49:00"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 17:19:10 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=s451vkndafg7khf3h2v57c9e22; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-25 17:19:03","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 18:19:10"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 17:25:06 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=9ndk9affn2gffeh9309triluu5; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 549
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-25 17:19:03","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 18:25:06"}HTTP/1.1 200 OK
+Date: Wed, 25 Mar 2015 17:50:23 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=kbbrsugn28reaka0a8b4t1g5h1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 540
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"rdp:\/\/10.0.129.87","configuredip":"10.0.142.250","startdate":"2015-03-25 17:19:03","status":"<b>About to run final action (cleanup and reboot). Next step is autorun of confnet script to customize the installation.<\/b>","progress":"96","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"2047","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-25 18:50:23"}HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2015 07:35:52 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=i1sgrfusvu77e8d99j63lev4h3; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 587
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"<a href='http:\/\/10.0.129.87:5800' target='_blank'>vnc:\/\/10.0.129.87<\/a>","configuredip":"10.0.142.250","startdate":"2015-03-25 17:19:03","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"46","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-26 08:35:52"}HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2015 07:41:22 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=2sat4mjtuilpru3vehlnqmk2d1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 493
+Content-Type: application/json
+
+{"notifid":"[11016832][rack3_shelfD]","hostname":"sysprod01","installationip":"rdp:\/\/10.0.129.87","configuredip":"10.0.142.250","startdate":"2015-03-25 17:19:03","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"100","image":"WINDOWS8DEPLOY","firmware":"QEMU","ram":"1348","cpu":"1","diskscount":"2","netintcount":"5","model":"Standard PC (i440FX + PIIX, 1996)","serial":"","os":"6.3.9600 Microsoft Windows ","update":"2015-03-26 08:41:22"}HTTP/1.1 200 OK
+Date: Fri, 27 Mar 2015 10:10:10 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=h6luvvel23usomc9hs4oarh222; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 591
+Content-Type: application/json
+
+{"notifid":"[11016896][rack13_shelfG]","hostname":"mgt01","installationip":"<a href='http:\/\/10.0.129.4:5800' target='_blank'>vnc:\/\/10.0.129.4<\/a>","configuredip":"10.24.1.31","startdate":"2015-03-27 10:47:39","status":"<b>Rebooting. This step can take up to twenty minutes before to update the status again (Installation Setup). <\/b>","progress":"47","image":"WINDOWS8DEPLOY","firmware":"Hewlett-Packard","ram":"7404","cpu":"1","diskscount":"1","netintcount":"2","model":"HP EliteDesk 800 G1 SFF","serial":"CZC4500812","os":"6.3.9600 Microsoft Windows ","update":"2015-03-27 11:10:10"}HTTP/1.1 200 OK
+Date: Fri, 27 Mar 2015 10:15:59 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=huors9bubv1t9kpjnjros4iqv1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 553
+Content-Type: application/json
+
+{"notifid":"[11016896][rack13_shelfG]","hostname":"mgt01","installationip":"<a href='http:\/\/10.0.129.4:5800' target='_blank'>vnc:\/\/10.0.129.4<\/a>","configuredip":"10.24.1.31","startdate":"2015-03-27 10:47:39","status":"<b>Starting phase 3. Postinstall and final reboot (may takes 15 minutes)<\/b>","progress":"47","image":"WINDOWS8DEPLOY","firmware":"Hewlett-Packard","ram":"7404","cpu":"1","diskscount":"1","netintcount":"2","model":"HP EliteDesk 800 G1 SFF","serial":"CZC4500812","os":"6.3.9600 Microsoft Windows ","update":"2015-03-27 11:15:59"}HTTP/1.1 200 OK
+Date: Fri, 27 Mar 2015 10:50:31 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Set-Cookie: PHPSESSID=81f91oc1hq3q7964ko8q0nd270; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 545
+Content-Type: application/json
+
+{"notifid":"[11016896][rack13_shelfG]","hostname":"mgt01","installationip":"rdp:\/\/10.0.129.4","configuredip":"10.24.1.31","startdate":"2015-03-27 10:47:39","status":"<b>About to run final action (cleanup and reboot). Next step is autorun of confnet script to customize the installation.<\/b>","progress":"96","image":"WINDOWS8DEPLOY","firmware":"Hewlett-Packard","ram":"8103","cpu":"1","diskscount":"1","netintcount":"2","model":"HP EliteDesk 800 G1 SFF","serial":"CZC4500812","os":"6.3.9600 Microsoft Windows ","update":"2015-03-27 11:50:31"}

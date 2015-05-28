@@ -1,0 +1,120 @@
+[Settings]
+Priority=init,MACAddress,Default,WSSectionName
+Properties=WebSysprod,So,Rack,Shelf,Data,ConfnetRepo,ConfnetTarget,OSDPackagerRoot,OSDUserPackager,OSDPasswordPackager,OSDCustomerRelease,RackShelf,disksCount,firmware
+
+[init]
+_SMSTSOrgName=Running %TaskSequenceID% on %OSDComputername% | SysProd Dev
+OSDPackagerRoot=\\pkgsrv.hq.k.grp\packager\delivery\Customers
+OSDUserPackager=hq.k.grp\packager
+OSDPasswordPackager=Packager
+WSUSServer=http://CHX-WSUS-01.hq.k.grp
+EventService=http://10.0.205.228:9800
+
+[WSSectionName]
+WebSysprod=http://web01.sysprod.local/RESTGwy/portal.php/sendNotification
+
+[Default]
+SLShareDynamicLogging=\\10.0.205.203\Images\MDT\Logs\%RackShelf%
+SLShare=\\10.0.205.203\Images\MDT\Logs\%RackShelf%
+ConfnetRepo=http://10.0.205.203/Confnet/%MACAddress%_confnet.bat
+ConfnetTarget=C:\Confnet.bat
+OSInstall=YES
+SkipCapture=NO
+SkipAdminPassword=YES
+SkipProductKey=YES
+SkipComputerBackup=NO
+SkipBitLocker=YES
+ComputerName=template01
+SkipAdminPassword=YES
+SkipApplications=NO
+SkipAppsOnUpgrade=YES
+SkipBDDWelcome=YES
+SkipBitLocker=YES
+SkipCapture=YES
+SkipComputerName=YES
+SkipComputerBackup=YES
+SkipDeploymentType=YES
+SkipDomainMembership=YES
+SkipFinalSummary=YES
+SkipLocaleSelection=YES
+KeyboardLocale=en-US
+UserLocale=en-US
+UILanguage=en-US
+SkipPackageDisplay=YES
+SkipProductKey=YES
+SkipWizard=YES
+DeploymentType=NEWCOMPUTER
+SkipSummary=YES
+SkipTaskSequence=YES
+SkipBDDWelcome=YES
+SkipFinalSummary=YES
+SkipTimeZone=Yes
+RackShelf=Rack%Rack%_Shelf%Shelf%
+
+
+[00:50:56:36:A9:49]
+;This example is for winxp
+ProductKey=JYRKJ-P68WM-8H83Y-X6DGB-JVBB8
+TaskSequenceID=OSC001
+TimeZoneName=Central European Standard Time
+ComputerName=KLT-DC-01
+OSDCumputerName=KLT-DC-01
+JoinWorkgroup=SYSPROD
+OSDCustomerRelease=\UPC\ELKHE_3.1UPC1.5,\SLT\SOLMRLHE_3.0SLT1.1
+So=99999999
+Rack=2
+Shelf=F
+# Json format without doubles quotes
+Data=configuredIP : 10.0.142.35
+
+
+
+[00:0C:29:4E:88:FF]
+TaskSequenceID=OSB001
+;ProductKey=XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+TimeZoneName=Central European Standard Time
+ComputerName=virtual01
+OSDComputerName=virtual01
+OSDAdapterCount=1
+# This will be done in confnet as ususal, may be also the product key
+#OSDAdapter0EnableDHCP=FALSE
+#OSDAdapter0IPAddressList=10.0.142.5
+#OSDAdapter0SubnetMask=255.255.255.0
+#OSDAdapter0Gateways=10.0.142.250
+OSDAdapter0EnableWINS=TRUE
+OSDAdapter0TCPIPNetBiosOptions=0
+OSDAdapter0MacAddress=00:0C:29:4E:88:FF
+OSDAdapter0GatewayCostMetrics=Automatic
+OSDAdapter0EnableTCPIPFiltering=TRUE
+OSDAdapter0EnableLMHosts=TRUE
+OSDAdapter0EnableFullDNSRegistration=TRUE
+OSDAdapter0EnableDNSRegistration=TRUE
+OSDAdapter0Name=CTRL
+JoinWorkgroup=SYSPRODLOCAL
+OSDCustomerRelease=\CHA\LYSIS_1.0CHA1.0,\SLT\SOLMRLHE_3.0SLT1.1
+So=1102304405
+Rack=24
+Shelf=G
+disksCount=1
+firmware=SMS BIOS 1.1
+# Json format without doubles quotes
+Data=configuredIP : 10.0.34.56
+
+
+
+
+
+[F0:92:1C:DC:49:7F]
+ProductKey=JYRKJ-P68WM-8H83Y-X6DGB-JVBB8
+TaskSequenceID=OSC001
+TimeZoneName=Central European Standard Time
+ComputerName=KLT-DC-01
+OSDCumputerName=KLT-DC-01
+JoinWorkgroup=SYSPROD
+OSDCustomerRelease=\UPC\ELKHE_3.1UPC1.5,\SLT\SOLMRLHE_3.0SLT1.1
+So=99999999
+Rack=2
+Shelf=F
+# Json format without doubles quotes
+Data=configuredIP:10.0.142.35
+

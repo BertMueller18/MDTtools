@@ -1,0 +1,18 @@
+[Settings]
+Priority=init,MACAddress,Default
+Properties=MyCustomProperty
+
+[init]
+_SMSTSOrgName=Running %TaskSequenceID% on %OSDComputername% | SysProd Dev
+
+[Default]
+SLShareDynamicLogging=\\10.0.205.203\Images\MDT\Logs\%OSDComputerName%
+OSInstall=Y
+SkipCapture=NO
+SkipAdminPassword=YES
+SkipProductKey=YES
+SkipComputerBackup=NO
+SkipBitLocker=YES
+EventService=http://10.0.205.228:9800
+ComputerName=template01
+
