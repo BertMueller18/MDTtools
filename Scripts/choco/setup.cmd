@@ -13,8 +13,7 @@ for /F "tokens=1,2* delims==" %%i in ('cscript //nologo "%SCRIPTDIR%\EchoTSVaria
 set CURL=%~dp0curl.exe  --globoff -i -v -A "perl" -X PUT -H "Content-Type: application/json" -H "Accept: application/json"
 set PK=[%So%][%Rack%_%Shelf%]
 set URL=http://10.0.205.204/SPOT/provisioning/api/provisioningnotifications/%PK%
-REM set http_proxy=http://proxy.hq.k.grp:80
-REM set https_proxy=http://proxy.hq.k.grp:80
+
 REM Install the corporate certificate first
 %CURL% -d "{\"status\":\"^<b^>CHOCO install script is installing the CA certificate  to be trusted..... ^</b^>\",\"progress\":\"85\"}" %URL%
 certutil.exe -f -v -addstore root %~dp0firewall.cer
