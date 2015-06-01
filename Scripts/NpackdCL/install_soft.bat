@@ -16,7 +16,7 @@ set PK=[%So%][%Rack%_%Shelf%]
 set URL=http://10.0.205.204/SPOT/provisioning/api/provisioningnotifications/%PK%
 set SCRIPTNAME="NpackdCL"
 REM Set the proxy var (obsolete now)
-REM netsh winhttp set proxy proxy.hq.k.grp:80
+REM netsh winhttp set proxy example.com:80
 REM Clear the repos definition
 %CURL% -d "{\"status\":\"^<b^>Reload software repository ^</b^>\"}" %URL%
 FOR /F "skip=2" %%G IN ('%WINGET% list-repos') DO (
