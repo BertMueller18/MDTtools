@@ -76,14 +76,15 @@ net use $uncServer $password /USER:$username
 #Loop on Releases
 
 $ReleasesArr | foreach {
-	restNotif  "Copying release $_ to $TargetDir...."
+	$ReleaseDir = "$TargetDir\$_"
+	restNotif  "Copying release $_ to $ReleaseDir...."
 		Write-Progress -Activity "Copying Release" -Status "Copying release $_ to $TargetDir...." -PercentComplete 50 -Id 1
 		$uncFullPath = "$uncServer\$_"
 
 
 #copy the Release
 #	$copy = Copy-Item $uncFullPath $TargetDir -recurse  -verbose -PassThru
-		copyProgress $uncFullPath $TargetDir
+		copyProgress $uncFullPath $ReleaseDir
 #	restNotif "$copy"
 
 
