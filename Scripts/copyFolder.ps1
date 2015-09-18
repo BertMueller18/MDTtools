@@ -76,20 +76,22 @@ net use $uncServer $password /USER:$username
 #Loop on Releases
 
 $ReleasesArr | foreach {
-	$ReleaseDir = "$TargetDir\$_"
-	restNotif  "Copying release $_ to $ReleaseDir...."
-		Write-Progress -Activity "Copying Release" -Status "Copying release $_ to $TargetDir...." -PercentComplete 50 -Id 1
-		$uncFullPath = "$uncServer\$_"
-
-
+        $uncFullPath = "$uncServer\$_"
+        $basenameObj = gi $uncFullPath | select basename
+        $b = $basenameObj[0]
+        $basename = $b.basename
+        $ReleaseDir = "$TargetDir\$basename"
+        restNotif  "Copying release $basename to $ReleaseDir ...."
+                Write-Progress -Activity "Copying Release" -Status "Copying release $basename to $ReleaseDir ...." -PercentComplete 50 -Id 1
 #copy the Release
-#	$copy = Copy-Item $uncFullPath $TargetDir -recurse  -verbose -PassThru
-		copyProgress $uncFullPath $ReleaseDir
-#	restNotif "$copy"
+#       $copy = Copy-Item $uncFullPath $TargetDir -recurse  -verbose -PassThru
+                copyProgress $uncFullPath $ReleaseDir
+#       restNotif "$copy"
 
 
 
 }
+
 
 
 Write-Progress -Activity "Copying Release" -Status "Copying release terminated, going to umount the Network share and quit." -PercentComplete 100 -Id 1
