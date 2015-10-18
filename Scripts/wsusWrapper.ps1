@@ -23,7 +23,7 @@ $ScriptRoot = "$ScriptRoot\Scripts"
 $UpdateCmd = "$ScriptRoot\wsusoffline\client\cmd\$DoUpdate"
 
 #Performing Action 
-restNotif "Mount Network share $uncServer to copy release(s) $ReleasesArr"
+restNotif "Windows Updates Wrapper: Initialazing Windows Updates......... Please be patience, it takes some time...."
 Write-Progress -Activity "Windows Updates Wrapper" -Status "Initialazing Windows Updates........." -PercentComplete 12 -Id 1 
 
 
