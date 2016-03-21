@@ -1,0 +1,6 @@
+{
+  "name": "Mdttools",
+  "tagline": "Customized MDT tool",
+  "body": "# MDTtools\r\nCustomized scripts for autmated deployment.\r\n- Added download files in phase 3\r\n- Added install custom software silently (using chocolatey)\r\n- Added better logging to external RESTFUL API\r\n\r\n\r\n## DISCLAIMER:\r\nThese scripts are property of Microsoft for the majority of them, I've only modified/added som to improve provisioning under some circostances.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
